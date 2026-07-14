@@ -1,0 +1,41 @@
+name: finance_ai
+description: "AI-Powered Personal Finance Assistant"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  fl_chart: ^0.70.2
+  gap: ^3.0.1
+  flutter_animate: ^4.5.2
+
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  collection: ^1.19.1
+
+  # Storage (lightweight for v1)
+  shared_preferences: ^2.3.4
+  path_provider: ^2.1.5
+  speech_to_text: ^7.4.0
+  permission_handler: ^12.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
